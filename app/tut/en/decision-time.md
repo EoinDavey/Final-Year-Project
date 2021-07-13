@@ -23,7 +23,13 @@ má < some check > {
 }
 ```
 
-*The [[`nó`{.setanta}|or]] section is [[optional|roghnach]]*
+**The [[`nó`{.setanta}|or]] section is [[optional|roghnach]]. Code like this is also correct:**
+
+```{.setanta .numberLines}
+má < some check > {
+    <code to execute if the check is true>
+}
+```
 
 ## Example
 
