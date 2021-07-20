@@ -32,3 +32,38 @@ má < slonn éigin > {
     < cód le dhéanamh má tá an slonn fíor >
 }
 ```
+
+## Sampla
+
+Tosaímis leis an ríomhchlár a scríobhamar cheana. Faigheann an ríomhchlár ainm an t-úsáideoir agus
+scríobhann sé é le "Dia duit" ar an gconsól.
+
+```{.setanta .numberLines}
+ainm := ceist("Cad is ainm duit?")
+scríobh("Dia duit", ainm)
+```
+
+Bainimid úsáid as an gníomh `ceist`{.setanta} chun ceist a chuir ar an úsáideoir faoi a ainm.
+Stórálaimid an freagra i athróg `ainm`{.setanta} agus ansin úsáidimid `scríobh`{.setanta} le
+haghaidh an ainm a scríobh ar an gconsól.
+
+Anois athraímis an ríomhchlár chun teachtaireacht speisialta a scríobh más é "Setanta" an ainm.
+Bainimid úsáid as an oibritheoir `==`{.setanta} chun dhá píosa téacs a chuir i gcomparáid. Ansin
+úsáidimid an ráiteas `má`{.setanta} chun rud difriúil a dhéanamh más "Setanta" é an luach.
+
+{{{
+ainm := ceist("Cad is ainm duit?")
+
+má ainm == "Setanta" {
+    scríobh("Fáilte romhat Setanta")
+} nó {
+    scríobh("Dia duit", ainm)
+}
+}}}
+
+Bain triail as an cód sin. Má deirimid gurb é "Setanta" ár n-ainm, scríobhfaidh an ríomhchlár
+"Fáilte romhat Setanta". Má deirimid aon rud eile, scríobhfaidh sé "Dia duit".
+
+### Taispeántas
+
+![An ráiteas má ag obair](../en/assets/ma-demo.gif)

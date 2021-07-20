@@ -45,6 +45,7 @@ We use the [[`ceist`{.setanta}|question]] action to ask the user for their name,
 Let's expand the program to print a special message if the name entered is "Setanta". We use the `==` operator to [[compare|cuir i gcomparáid]] two pieces of text, and we use the `má`{.setanta} statement to [[control|smachtaigh]] the decision that's made:
 
 {{{
+
 ainm := ceist("Cad is ainm duit?")
 
 má ainm == "Setanta" {
