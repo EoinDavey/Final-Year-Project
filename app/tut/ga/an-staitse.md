@@ -6,21 +6,21 @@ prev-text: Cad é Ríomhchlárú?
 
 # Gníomhartha
 
-Le tosú ag tarraingt cruthanna ar an stáitse, is gá dúinn féach ar **gníomhartha**.
+Le tosú ag tarraingt cruthanna ar an stáitse, is gá dúinn féachaint ar **gníomhartha**.
 
-Chonaiceamar cúpla gníomhartha cheana féin, ba gníomh é `scríobh`{.setanta}, chomh maith le
+Chonaiceamar cúpla gníomh cheana féin, ba gníomh é `scríobh`{.setanta}, chomh maith le
 `codladh`{.setanta}.
 
 Is luachanna speisialta iad gníomhartha a sheasann do rudaí casta is féidir leis an ríomhaire a
 dhéanamh. Sa chás `gníomh`{.setanta} mar shampla, is é an rud casta ná téacs a scríobh ar an gconsól
 agus sa chás `codladh`{.setanta}, is é ag fanacht ar feadh am éigin.
 
-Amach anseo, feicfimid conas ár ngníomhartha féin a chruthú, ach anois feicfimid ar an caoi is
+Amach anseo, feicfimid conas ár ngníomhartha féin a chruthú, ach anois feicfimid an caoi is
 féidir linn iad a úsáid.
 
 ## Glaoigh Orm!
 
-Nuair a bainimid úsáid as gníomh, deirimid go bhfuilimid **ag glaoch** air. An cuimhin leat an caoi
+Nuair a bainimid úsáid as gníomh, deirimid go bhfuilimid **ag glaoch** air. An cuimhin leat an chaoi
 a d'úsáideamar an gníomh `scríobh`{.setanta}?
 
 ```{.setanta .numberLines}
@@ -46,7 +46,7 @@ ansin glaonn sé air. Ansin fanann an léirmhínitheoir ar feadh dhá soicind.
 ### Níos mó argóintí
 
 Is féidir le roinnt gníomhartha i *Setanta* [[glacadh|accept]] le níos mó ná argóint amháin. Nuair a
-tugaimid níos mó ná argóint amháin do gníomh éigin, bainimid úsáid as [[camóg|comma]] ("`,`") chun
+thugaimid níos mó ná argóint amháin do gníomh éigin, bainimid úsáid as [[camóg|comma]] ("`,`") chun
 iad a [[scaradh|separate]].
 
 Mar shampla, is féidir le `scríobh`{.setanta} an oiread argóintí agus is mian linn a ghlacadh, agus
@@ -57,17 +57,17 @@ scríobh("An-chéad-argóint", "An-dara-argóint")
 }}}
 
 Ní féidir le gach gníomh an oiread argóintí agus is mian linn a ghlacadh. Glacann an gníomh
-`codladh` le argóint amháin, ní ghlacann sé le aon méid argóinte eile.
+`codladh` le hargóint amháin, ní ghlacann sé le aon méid argóinte eile.
 
-Is féidir le roinnt argóintí 0 argóintí a ghlacadh.
+Is féidir le roinnt gníomhartha 0 argóintí a ghlacadh.
 
 ## Dúshlán
 
 Anois triailimis ár n-eolas ar gníomhartha!
 
-Seo é cód a úsáideann `scríobh`{.setanta} chun "Is aoibhinn liom Setanta!" a scríobh. Athraigh an
-cód ionas go fós scríobhann sé "Is aoibhinn liom Setanta!" ach baineann sé úsáid as ceithre athróg
-ina ionad athróg amháin.
+Seo cód a úsáideann `scríobh`{.setanta} chun "Is aoibhinn liom Setanta!" a scríobh. Athraigh an
+cód ionas go scríobhann sé "Is aoibhinn liom Setanta!" fós ach go mbaineann sé úsáid as ceithre
+athróg ina ionad athróg amháin.
 
 {{{
 scríobh("Is aoibhinn liom Setanta!")
@@ -94,14 +94,14 @@ Is féidir linn toradh ghnímh a chur in athróg, mar seo:
 is_mó := uas(3, 2)
 ```
 
-Sa chás seo, Beidh `3`{.setanta} luach an athróg `is_mó`. Bain triail as:
+Sa chás seo, Beidh `3`{.setanta} mar luach na hathróige `is_mó`. Bain triail as:
 
 {{{
 is_mó := uas(3, 2)
 scríobh(is_mó)
 }}}
 
-Bain triail as luachanna difriúil, mar shampla, cad a scríobhfadh an cód dá gcuirfeá
+Bain triail as luachanna difriúla, mar shampla, cad a scríobhfadh an cód dá gcuirfeá
 `uas(100, 200)`{.setanta} in ionad `uas(3, 2)`{.setanta}?
 
 *Tabhair faoi deara gur féidir linn `scríobh(uas(3, 2))`{.setanta} a scríobh, ag úsáid toradh
@@ -132,17 +132,17 @@ ainm := ceist("Cad is ainm duit?")
 scríobh("Dia duit", ainm)
 }}}
 
-**Déan iarracht an ríomchlár a athrú chun aois an úsáideoir a scríobh freisin.**
+**Déan iarracht an ríomhchlár a athrú chun aois an úsáideoir a scríobh freisin.**
 
 # Gníomhartha stáitse
 
-Anois tuigfimid gníomhartha, dá bhrí sin is féidir linn tosú ag úsáid an stáitse faoi dheireadh.
+Anois tuigimid gníomhartha, dá bhrí sin is féidir linn tosú ag úsáid an stáitse faoi dheireadh.
 
-Úsáidimid gníomhartha le haghaidh [[cruthanna|shapes]] a tharraing agus an stáitse a athrú. Tá go
+Úsáidimid gníomhartha le haghaidh [[cruthanna|shapes]] a tharraingt agus an stáitse a athrú. Tá go
 leor [[gníomhartha stáitse|stage actions]] ann is féidir linn a úsáid.
 
-Ar dtús, féachfaimid ar ár gcéad gníomh stáitse "`ciorcal`{.setanta}". Le `ciorcal` is féidir linn
-ciorcail a tharraing ar an stáitse. Chun an gníomh seo a fháil, is gá dúinn é seo a scríobh:
+Ar dtús, feicfimid ar ár gcéad gníomh stáitse "`ciorcal`{.setanta}". Le `ciorcal` is féidir linn
+ciorcail a tharraingt ar an stáitse. Chun an gníomh seo a fháil, is gá dúinn é seo a scríobh:
 
 ```{.setanta}
 ciorcal@stáitse
@@ -197,8 +197,8 @@ Ach cad iad na aonaid seo? Cé chomh fada atá "200 aonad"? Faraor, ní ceist si
 a fháil le `fad_y@stáitse`{.setanta}.
 
 Mar shampla, scríobhann an ríomhchlár seo leithead agus airde an stáitse, agus scríobhann sé an
-pointe i lár an stáitse. Ansin baineann sé úsáid as an pointe sin chun ciorcal mór a tharraing i lár
-an stáitse.
+pointe i lár an stáitse. Ansin baineann sé úsáid as an pointe sin chun ciorcal mór a tharraingt i
+lár an stáitse.
 
 {{{
 >-- Scríobh sonraí an stáitse ar an gconsól.
@@ -237,7 +237,7 @@ dath@stáitse("dearg")
 dath@stáitse("buí")
 ```
 
-Anois bainimid úsáid as ár ngníomh nua chun ciorcal glas a tharraing in ionad an ciorcal dubh a
+Anois bainimid úsáid as ár ngníomh nua chun ciorcal glas a tharraingt in ionad an ciorcal dubh a
 tharraingíomar níos luaithe:
 
 {{{s
@@ -245,7 +245,7 @@ dath@stáitse("glas")
 ciorcal@stáitse(200, 200, 50)
 }}}
 
-Glacann an gníomh `dath` le dathanna Gaeilge agus Béarla, freisin glacann sé le [cód dathanna
+Glacann an gníomh `dath` le dathanna Gaeilge agus Béarla, glacann sé freisin le [cód dathanna
 HTML](https://htmlcolorcodes.com/).
 
 ## Gníomhartha eile
