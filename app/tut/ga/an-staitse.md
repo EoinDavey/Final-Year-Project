@@ -6,17 +6,17 @@ prev-text: Cad é Ríomhchlárú?
 
 # Gníomhartha
 
-Le tosú ag tarraingt cruthanna ar an stáitse, is gá dúinn féachaint ar **gníomhartha**.
+Le tús a chur lé cruthanna a tharraingt ar an stáitse is gá dúinn féachaint ar **gníomhartha**.
 
 Chonaiceamar cúpla gníomh cheana féin, ba gníomh é `scríobh`{.setanta}, chomh maith le
 `codladh`{.setanta}.
 
 Is luachanna speisialta iad gníomhartha a sheasann do rudaí casta is féidir leis an ríomhaire a
-dhéanamh. Sa chás `gníomh`{.setanta} mar shampla, is é an rud casta ná téacs a scríobh ar an gconsól
-agus sa chás `codladh`{.setanta}, is é ag fanacht ar feadh am éigin.
+dhéanamh. Mar shampla: I gcás `gníomh`{.setanta} is é an rud casta ná téacs a scríobh ar an gconsól
+agus fanacht ar feadh tréimhse éigin i gcás `codladh`{.setanta}
 
-Amach anseo, feicfimid conas ár ngníomhartha féin a chruthú, ach anois feicfimid an caoi is
-féidir linn iad a úsáid.
+Amach anseo, caithfidh muid súil ar an gcaoi ár ngníomhartha féin a chruthú, ach anois feicfimid an
+caoi is féidir linn iad a úsáid.
 
 ## Glaoigh Orm!
 
