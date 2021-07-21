@@ -86,6 +86,9 @@ biggest := uas(3, 2)
 scríobh(biggest)
 }}}
 
+Try out different values, for example what would the code write if you put `uas(100, 200)`{.setanta}
+in instead of `uas(3, 2)`{.setanta}.
+
 *Note that we could also write `scríobh(uas(3, 2))`{.setanta}, using the result of `uas`{.setanta} as the argument for `scríobh`{.setanta} directly*
 
 ### Example from before
@@ -153,6 +156,35 @@ We call the horizontal [[direction|treo]] the "x" direction, and the vertical di
 When we call the `ciorcal` action, we pass in three arguments. The first is the "x" coordinate of the [[center|lár]] of the circle, the second is the "y" coordinate of the center, and the final argument is the [[radius|ga]]. So when we called `ciorcal@stáitse(200, 200, 50)`{.setanta} we were asking the *Setanta* interpreter to draw a circle on the stage, with the center at (200, 200) and radius 50.
 
 ![Circle coords](assets/circle-coords.png)
+
+But what are these units? How wide is "200 units"? Unfortunately that's not a simple question, it
+totally depends on the size of your screen. However, you can get the width of the screen with
+`fad_x@stáitse`{.setanta} and the height of the screen with `fad_y@stáitse`{.setanta}.
+
+For example, this program writes the width and height of the stage, and it writes the point in the
+middle of the stage. Then it uses that point to draw a big circle in the middle of the stage.
+
+{{{
+>-- Write the details of the stage.
+scríobh('Width', fad_x@stáitse)
+scríobh('Height', fad_y@stáitse)
+
+>-- Compute the middle x-coordinate.
+mid_x := fad_x@stáitse / 2
+>-- Compute the middle y-coordinate.
+mid_y := fad_y@stáitse / 2
+
+scríobh('The point in the centre:', mid_x, mid_y)
+
+>-- We pick the smallest length, and we divide it by 2
+>-- to get the radius of the circle.
+rad := íos(fad_x@stáitse, fad_y@stáitse) / 2
+
+>-- Draw the circle on the stage.
+ciorcal@stáitse(mid_x, mid_y, rad)
+}}}
+
+![The circle in the middle](assets/circle-in-middle.gif)
 
 ## Colours
 

@@ -1,5 +1,7 @@
 ---
 title: Cad é Ríomhchlárú?
+next: an-staitse
+next-text: An Stáitse
 prev: reamhra
 prev-text: Réamhrá Teagaisc
 ---

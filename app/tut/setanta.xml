@@ -20,19 +20,20 @@
         <item>creatlach</item>
     </list>
     <list name="builtins">
-        <item>scríobh</item>
-        <item>scriobh</item>
-        <item>fan</item>
-        <item>fad</item>
-        <item>thar</item>
-        <item>cuid</item>
-        <item>mata</item>
+        <item>ceist</item>
         <item>codladh</item>
-        <item>stáitse</item>
-        <item>staitse</item>
-        <item>uas</item>
-        <item>íos</item>
+        <item>cuid</item>
+        <item>fad</item>
+        <item>fan</item>
         <item>ios</item>
+        <item>íos</item>
+        <item>mata</item>
+        <item>scriobh</item>
+        <item>scríobh</item>
+        <item>staitse</item>
+        <item>stáitse</item>
+        <item>thar</item>
+        <item>uas</item>
     </list>
     <list name="values">
         <item>fíor</item>
