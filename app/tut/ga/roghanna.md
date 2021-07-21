@@ -67,3 +67,28 @@ Bain triail as an cód sin. Má deirimid gurb é "Setanta" ár n-ainm, scríobhf
 ### Taispeántas
 
 ![An ráiteas má ag obair](../en/assets/ma-demo.gif)
+
+### Míniú
+
+Seo an cód a scríobhamar:
+
+```{.setanta .numberLines}
+ainm := ceist("Cad is ainm duit?")
+
+má ainm == "Setanta" {
+    scríobh("Fáilte romhat Setanta")
+} nó {
+    scríobh("Dia duit", ainm)
+}
+```
+
+- Ar an gcéad líne, faighimid ainm an t-úsáideoir mar a rinneamar cheana.
+- Ar an tríú líne, scríobhaimid `má ainm == "Setanta"`{.setanta}. Seiceálann an slonn sin an bhfuil
+  luach na hathróige `ainm`{.setanta} cothrom le "Setanta".
+- Ar an ceathrú líne, scríobhaimid `scríobh("Fáilte romhat Setanta")`{.setanta}. Rithfear an cód sin
+  má tá `ainm`{.setanta} cothrom le "Setanta" mar tá an líne sin idir an chéad péire lúibíní
+  slabhra.
+- An an cúigiú líne bainimid úsáid as an focal `nó`{.setanta} chun an dara roinn den ráiteas a tosú.
+  Rithfear an cód idir an dara péire lúibíní mura bhfuil an seiceáil a rinneamar fíor.
+- Ar an líne dheireanach scríobhamar `scríobh("Dia duit", ainm)`{.setanta} mar ba mhaith linn é sin
+  a scríobh mura bhfuil `ainm`{.setanta} cothrom le "Setanta".
